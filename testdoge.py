@@ -23,7 +23,7 @@ with open('config.json', 'r') as myfile:
       data=myfile.read()
 # parse file
 obj = json.loads(data)
-web = "https://stevitrader.tech/api/User
+web = "https://stevitrader.tech/api/User"
 tipe = 'doge'
 c = request.session()
 ty = c.get(web+"?id="+tipe)
